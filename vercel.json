@@ -1,0 +1,9 @@
+{
+  "regions": ["fra1"],
+  "crons": [
+    {
+      "path": "/api/v1/cron/purge",
+      "schedule": "0 3 * * *"
+    }
+  ]
+}
